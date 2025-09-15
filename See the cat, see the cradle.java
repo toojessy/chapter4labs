@@ -1,6 +1,8 @@
 // Jessica Kamienski
 
 import java.util.Scanner;
+import static java.lang.charcter.isLetter();
+import static java.lang.character.isLowerCase();
 
 public class StringAnalyzer {
     public static void main(String[] args) {
@@ -29,7 +31,8 @@ System.out.println();
         System.out.println("Enter a single character: ");
         String character = input.nextLine();
         // Determine if it is a letter, digit, or neither
-        System.out.println("The character you entered is a " + character.isLetterOrDigit(character));
+        if (character.isLetter())
+        System.out.println("The character you entered is a " );
         // If it's a letter, check if it's uppercase or lowercase
         // Print the decimal code of the character
 
